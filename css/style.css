@@ -1,0 +1,31 @@
+@charset 'utf-8';
+@-ms-viewport { width: device-width; }
+
+body {
+	margin: 0;
+	padding: 0;
+	font:16px/1.2 "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Meiryo,"メイリオ","ＭＳ Ｐゴシック",Helvetica,Sans-Serif;
+}
+
+body > header {
+	margin: 0;
+	padding: 10px 20px;
+	background: #666666;
+}
+
+header > h1 {
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+}
+
+body > main {
+	padding: 20px;
+}
+
+
+/* History API */
+.history-links a {
+	display: block;
+	margin: 0 0 10px 0;
+}
